@@ -28,6 +28,8 @@ class RCM extends React.Component{
     return (
       <div id="quote-box" className="RCM" style={{backgroundColor:`rgba(${this.color1},${this.color2},${this.color3},0.8)`}}>
         <div className="RCM__container">
+          <h1 className="heading-primary" style={{color:`rgba(${this.color1},${this.color2},${this.color3},0.8)`, 
+          borderBottom: `2px inset rgba(${this.color1},${this.color2},${this.color3},0.8)`}}>Random Quote Machine</h1>
           <div className="RCM__quote u-margin-bottom-big"
             style={{color:`rgba(${this.color1},${this.color2},${this.color3},0.8)`}}
             >

@@ -9,6 +9,11 @@ html {
   font-weight: 400;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
 .u-margin-bottom-big {
   margin-bottom: 6rem;
 }
@@ -34,6 +39,14 @@ html {
   text-align: center;
   border-radius: .2rem;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+}
+
+.heading-primary{
+  display: inline-block;
+  padding-bottom: .3rem;
+  font-weight: 700;
+  font-size: 3rem;
+  transition: all .8s;
 }
 
 .RCM__quote {
