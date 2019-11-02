@@ -1,5 +1,15 @@
-Basic Random Quote generator created using Reactjs, font awesome icons.
+# Random Quote Generator
 
-It will suggest a new quote on each click.
+Random Quote Generator is a Freecodecamp challenge under Front End Libraries Project. It is built in ReactJS
 
-Thank you!
+## Installation
+
+After cloning run
+
+`npm install`
+
+`npm start`
+
+
+## Demo  
+ [Live Demo](https://vibrant-austin-2d731f.netlify.com/)

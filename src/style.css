@@ -53,6 +53,25 @@ body {
   font-size: 1.5rem;
   padding: 2rem;
   transition: color .8s;
+  position: relative;
+}
+
+.RCM__quote{
+  content: open-quote;
+  display: inline;
+}
+
+.actual-quote{
+  padding-top: 20px;
+}
+
+.actual-quote::before{
+  content: open-quote;
+  padding-right: 4px;
+}
+
+.actual-quote::after{
+  content: close-quote;
 }
 
 .RCM__button-box {
@@ -70,6 +89,7 @@ body {
   color: transparent;
   font-size: 50px;
   -webkit-background-clip: text;
+  background-clip: text;
   transition: all .8s;
 }
 
